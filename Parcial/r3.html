@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="r1.css">
+    <link rel="stylesheet"  type="text/css" href="Estilo.css">
+    <title>Menú Admin</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="Principal.html">Noticias</a></li>
+                <li><a href="r3.html">Admin</a></li>
+                <li><a href="l1.html">Sign Up</a></li>
+                <li><a href="q1.html">About</a></li>
+                <li><a href=""><form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form></a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="admin-container">
+        <h1>Iniciar Sesión</h1>
+        <form id="login-form">
+            <label for="username">Usuario:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required>
+            <div class="button-container">
+                <button type="submit" id="login-button">Log In</button>
+                <button type="button" id="signup-button">Sign Up</button>
+                <button type="button" id="cancel-button">Cancelar</button>
+            </div>
+        </form>
+    </div>
+    <script src="r2.js"></script>
+</body>
+</html>
